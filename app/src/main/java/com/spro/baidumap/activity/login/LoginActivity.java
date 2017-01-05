@@ -141,6 +141,6 @@ public class LoginActivity extends BaseActivity implements LoginView {
 
     // 显示进度
     public void showProgress() {
-        mDialog = ProgressDialog.show(this, "注册", "亲，正在登录中，请稍后~");
+        mDialog = ProgressDialog.show(this, "登录", "亲，正在登录中，请稍后~");
     }
 }
