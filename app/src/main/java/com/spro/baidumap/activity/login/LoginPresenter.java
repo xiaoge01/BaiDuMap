@@ -60,7 +60,7 @@ public class LoginPresenter {
                 // 拿到数据，做UI更新
                 // 注册成功之后的处理
                 loginView.hideProgress();
-                loginView.showMessage("注册成功");
+                loginView.showMessage("登录成功");
                 loginView.navigationToHome();
             }
         }.execute();
